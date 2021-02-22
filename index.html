@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/headerInfo.css">
   <link rel="stylesheet" href="./css/cards.css">
+  <link rel="stylesheet" href="./css/animation.css">
 </head>
 <body>
   <div class="container">
@@ -42,10 +43,10 @@
       <form>
         <div class="form-input-name">
           <label for="name">Nom de joueur: </label>
-          <input type="text" placeholder="Entrez votre nom de joueur">
+          <input type="text" id="form-input" placeholder="Entrez votre nom de joueur">
         </div>
 
-        <div class="btn-valider btn">VALIDER</div>
+        <div class="btn-valider btn" id="btn-submit">VALIDER</div>
       </form>
     </div>
 
@@ -88,12 +89,13 @@
           <img src="./docs/lemon.jpg" alt="">
         </div>
       </div>
-
-      <div class="start-button text-css btn">START</div>
     </div>
+
+    <div class="start-button text-css btn">START</div>
   </div>
 
   <script src="./js/App.js"></script>
   <script src="./js/lib/screenConfig.js"></script>
+  <script src="./js/lib/handleForm.js"></script>
 </body>
 </html>

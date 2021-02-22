@@ -39,7 +39,7 @@
   padding: 20px;
   border-radius: 20px;
   background-color: blue;
-  opacity: .6;
+  opacity: 0;
   transition: all .4s;
 }
 

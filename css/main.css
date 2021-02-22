@@ -33,6 +33,7 @@ body {
 .game-body {
   margin-top: 50px;
   padding: 5px 0;
+  opacity: 0;
 }
 
 .formular {
@@ -43,6 +44,7 @@ body {
   flex-direction: column;
   align-self: center;
   align-items: center;
+  opacity: 1;
 }
 
 .formular > form {
