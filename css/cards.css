@@ -44,8 +44,7 @@
 }
 
 .start-button:hover {
-  transform: scale(1.02);
-  box-shadow: 3px 5px 8px black;
+  box-shadow: 2px 5px 8px grey;
 }
 
 @media screen and (min-width: 500px) {
